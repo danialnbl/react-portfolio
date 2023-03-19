@@ -31,10 +31,10 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl dark:text-white">Developed by danialnbl</h1>
+            <h1 className="text-xl dark:text-white md:text-xs">Developed by danialnbl</h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:text-white" />
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:text-white md:text-xl" />
               </li>
               <li>
                 <a
@@ -64,7 +64,7 @@ export default function Home() {
               <AiFillLinkedin />
               <AiFillYoutube />
             </div>
-            <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden">
+            <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mt-10 overflow-hidden">
               <Image src={pfp} layout="fill" objectFit="cover" />
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function Home() {
           <div className="lg:flex gap-20">
             <div className="flex flex-col justify-center items-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-600">
               <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
+              <h3 className="text-lg font-medium pb-2 dark:text-white">
                 Beautiful Designs
               </h3>
               <p className="py-2 dark:text-white">
@@ -96,7 +96,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col justify-center items-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-600">
               <Image src={code} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
+              <h3 className="text-lg font-medium pb-2 dark:text-white">
                 Code your dream project
               </h3>
               <p className="py-2 dark:text-white">
