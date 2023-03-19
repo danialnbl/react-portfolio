@@ -31,10 +31,10 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl dark:text-white md:text-xs">Developed by danialnbl</h1>
+            <h1 className="text-xl text-black dark:text-white md:text-xs">Developed by danialnbl</h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:text-white md:text-xl" />
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl text-black dark:text-white md:text-xl" />
               </li>
               <li>
                 <a
@@ -50,7 +50,7 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
               Danial Nabil
             </h2>
-            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
+            <h3 className="text-2xl py-2 md:text-3xl text-black dark:text-white">
               Programmer and designer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
@@ -72,7 +72,7 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white text-black">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer from a wide range of services, including brand design,
               programming and teaching for universities student.
@@ -81,10 +81,10 @@ export default function Home() {
           <div className="lg:flex gap-20">
             <div className="flex flex-col justify-center items-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-600">
               <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pb-2 dark:text-white">
+              <h3 className="text-lg font-medium pb-2 text-black dark:text-white">
                 Beautiful Designs
               </h3>
-              <p className="py-2 dark:text-white">
+              <p className="py-2 text-black dark:text-white">
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
@@ -96,10 +96,10 @@ export default function Home() {
             </div>
             <div className="flex flex-col justify-center items-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-600">
               <Image src={code} width={100} height={100} />
-              <h3 className="text-lg font-medium pb-2 dark:text-white">
+              <h3 className="text-lg font-medium pb-2  text-black dark:text-white">
                 Code your dream project
               </h3>
-              <p className="py-2 dark:text-white">
+              <p className="py-2 text-black dark:text-white">
                 Do you have an idea for your next great website or application?
                 Let&apos;s make it a reality.
               </p>
@@ -117,7 +117,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
+            <h3 className="text-3xl py-1 text-black dark:text-white">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer from a wide range of services, including brand design,
               programming and teaching for universities student.
