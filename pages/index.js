@@ -8,7 +8,7 @@ import {
   AiFillLinkedin,
   AiFillGithub,
 } from "react-icons/ai";
-import pfp from "../public/lensa.jpg";
+import pfp from "../public/bil.jpeg";
 import logo from "../public/logo.png";
 import poster from "../public/poster.jpg";
 import apps from "../public/apps.png";
@@ -49,7 +49,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10 pt-0">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
+            <h2 className="text-5xl py-2 text-teal-300 font-medium md:text-6xl">
               Danial Nabil
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl text-black dark:text-white">
@@ -72,74 +72,9 @@ export default function Home() {
                 <AiFillGithub />
               </a>
             </div>
-            <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mt-10 overflow-hidden">
-              <Image src={pfp} layout="fill" objectFit="cover" />
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <div>
-            <h3 className="text-3xl py-1 dark:text-white text-black">
-              Services I offer
-            </h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching for universities student.
-            </p>
-          </div>
-          <div className="lg:flex gap-20">
-            <div className="flex flex-col justify-center items-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-600">
-              <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pb-2 text-black dark:text-white">
-                Beautiful Designs
-              </h3>
-              <p className="py-2 text-black dark:text-white">
-                Creating elegant designs suited for your needs following core
-                design theory.
-              </p>
-              <h4 className="py-4 text-teal-600 dark:text-teal-400">
-                Design Tools I Use
-              </h4>
-              <p className="text-gray-800 py-1 dark:text-white">Photoshop</p>
-              <p className="text-gray-800 py-1 dark:text-white">Illustrator</p>
-              <p className="text-gray-800 py-1 dark:text-white">Figma</p>
-              <p className="text-gray-800 py-1 dark:text-white">Indesign</p>
-            </div>
-            <div className="flex flex-col justify-center items-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-600">
-              <Image src={code} width={100} height={100} />
-              <h3 className="text-lg font-medium pb-2  text-black dark:text-white">
-                Code your dream project
-              </h3>
-              <p className="py-2 text-black dark:text-white">
-                Do you have an idea for your next great website or application?
-                Let&apos;s make it a reality.
-              </p>
-
-              <h4 className="py-4 text-teal-600 dark:text-teal-400">
-                Language I Know
-              </h4>
-              <p className="text-gray-800 py-1 dark:text-white">C</p>
-              <p className="text-gray-800 py-1 dark:text-white">.Net</p>
-              <p className="text-gray-800 py-1 dark:text-white">Typescript</p>
-              <p className="text-gray-800 py-1 dark:text-white">Javascript</p>
-              <p className="text-gray-800 py-1 dark:text-white">Java</p>
-              <p className="text-gray-800 py-1 dark:text-white">C#</p>
-              <p className="text-gray-800 py-1 dark:text-white">
-                HTML, CSS, PHP
-              </p>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div>
-            <h3 className="text-3xl py-1 text-black dark:text-white">
-              Portfolio
-            </h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching for universities student.
-            </p>
+            {/* <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mt-10 overflow-hidden">
+              <Image src={pfp} layout="fill"/>
+            </div> */}
           </div>
         </section>
       </main>
